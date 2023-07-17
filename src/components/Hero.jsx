@@ -8,6 +8,7 @@ import FormControl from "@mui/material/FormControl";
 import FormLabel from "@mui/material/FormLabel";
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
+import TextField from "@mui/material/TextField";
 
 export class Hero extends Component {
   render() {
@@ -55,6 +56,23 @@ export class Hero extends Component {
                 }
               />
             </RadioGroup>
+            <div className="input-boxes">
+              <div className="height-input-container">
+                <p className="height-input-label">Height</p>
+                <div className="height-input-box">
+                  <input></input>
+                  <p className="height-input-box-text">cm</p>
+                </div>
+              </div>
+              <div className="height-input-container">
+                <p className="height-input-label">Weight</p>
+
+                <div className="height-input-box">
+                  <input></input>
+                  <p className="height-input-box-text">kg</p>
+                </div>
+              </div>
+            </div>
           </FormControl>
         </div>
       </div>

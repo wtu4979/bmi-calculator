@@ -78,6 +78,71 @@
   letter-spacing: -1.2px;
 }
 
-.radioButton {
-  width: 250px;
+.input-boxes {
+  display: flex;
+  flex-direction: row;
+}
+
+.height-input-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.height-input-box {
+  width: 70%;
+  height: 30px;
+  border-radius: 12px;
+  border: 1px solid #d8e2e7;
+  background: var(--pure-white, #fff);
+  display: flex;
+  padding: 20px 24px;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.height-input-box-text {
+  color: var(--blue, #345ff6);
+
+  /* Heading M */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.2px;
+  padding: 0;
+  margin: 0;
+}
+
+.height-input-label {
+  color: #5e6e85;
+
+  /* Body S */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+
+input {
+  border: none;
+  height: 100%;
+  font-size: 20px;
+  width: 70%;
+  color: var(--gunmetal, #253347);
+
+  /* Heading M */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.2px;
+}
+
+input:focus {
+  outline: none;
 }
