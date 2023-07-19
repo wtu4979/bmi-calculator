@@ -1,7 +1,7 @@
 .hero-container {
   display: flex;
   flex-direction: row;
-  height: 100vh;
+  height: 70vh;
   align-items: start;
   justify-content: start;
 }
@@ -13,7 +13,7 @@
     linear-gradient(315deg, #d6e6fe 0%, rgba(214, 252, 254, 0) 100%)
   );
   width: 65%;
-  height: 75%;
+  height: 80%;
   flex-shrink: 0;
   margin-left: 24px;
   display: flex;
@@ -27,7 +27,7 @@
   height: 64px;
   margin-left: 116px;
   position: absolute;
-  top: 15%;
+  top: 5%;
 }
 
 .headingText {

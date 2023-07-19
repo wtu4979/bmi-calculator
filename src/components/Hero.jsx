@@ -30,7 +30,7 @@ export class Hero extends Component {
         <div className="whiteRectangle">
           <div className="belowWhiteRectangle">
             <p className="whiteRectangleText">Enter your details below</p>
-            <FormControl style={{ padding: "0 32px" }}>
+            <FormControl style={{ padding: "0 5%" }}>
               <RadioGroup
                 style={{
                   display: "flex",
